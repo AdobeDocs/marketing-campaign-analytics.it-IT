@@ -1,16 +1,27 @@
 ---
-title: Consulta le note sulla versione corrente di Mix Modeler
-description: Note sulla versione più recente di Mix Modeler
+title: Consulta le note sulla versione corrente di Marketing Campaign Analytics
+description: Note sulla versione più recente di Marketing Campaign Analytics
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-TQID: https://experienceleague.adobe.com/8o2hpkneIUMbBNEZfw9TsQLaGuPOxqF-XA2TV9cJnqc
+autotag-review: '2026-05-01T09:06:55.437Z'
+TQID: 'https://experienceleague.adobe.com/fZpl0bWBtDzOWllXsyGPErO637PaIdJ-2E-l-89JpDk'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
     internal-label: Release notes
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,17 +34,25 @@ topic_v2:
     internal-label: Experimentation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 6%
+source-wordcount: '583'
+ht-degree: 5%
 ---
-# Note sulla versione corrente di Mix Modeler
+# Note sulla versione corrente di Marketing Campaign Analytics
 
-**Ultimo aggiornamento**: 19 agosto 2026.
+{{mm-mca-rebranding}}
 
-Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rilasci di Mix Modeler funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
+**Ultimo aggiornamento**: 29 ottobre 2026.
+
+Queste note sulla versione descrivono l’ultima versione di Marketing Campaign Analytics. I rilasci di Marketing Campaign Analytics funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Di conseguenza, queste note sulla versione vengono aggiornate e quindi controllate regolarmente.
+
+## Ottobre 2026
+
+| Funzione | Descrizione | [Inizio rollout](#release-strategy) | [Disponibilità generale](#release-strategy) |
+|---|---|---|---|
+| **Modellazione completa di funnel** | Puoi abilitare [la modellazione completa di funnel](/help/models/overview.md#full-funnel-modeling) quando crei un modello per mostrare in che modo il marketing sposta i clienti attraverso funnel. Una [visualizzazione del flusso di funnel](/help/models/insights.md#funnel-flow) è disponibile in Approfondimenti modello per fornire informazioni sull&#39;intero funnel. | 29 ottobre 2026 | 29 ottobre 2026 |
+
 
 ## Agosto 2026
 
@@ -69,7 +88,7 @@ Queste note sulla versione descrivono l’ultima versione di Mix Modeler. I rila
 
 ## Strategia di rilascio
 
-[!UICONTROL Mix Modeler] utilizza i flag di funzionalità (noti anche come &quot;interruttori&quot;) per controllare la visibilità delle nuove funzionalità, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
+[!UICONTROL Marketing Campaign Analytics] utilizza i flag di funzionalità (noti anche come &quot;interruttori&quot;) per controllare la visibilità delle nuove funzionalità, consentendo test su scala controllati prima del rilascio completo. Questa strategia di rilascio include le seguenti fasi:
 
 * **Test limitati**: un rilascio graduale inizia con il test da parte degli utenti interni di Adobe. Viene quindi reso disponibile a un piccolo gruppo di clienti per garantire che la funzione soddisfi le esigenze e le aspettative dei clienti.
 

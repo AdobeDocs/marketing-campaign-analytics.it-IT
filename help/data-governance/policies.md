@@ -1,14 +1,16 @@
 ---
 title: Criteri
-description: Scopri come accedere ai criteri da Mix Modeler.
+description: Scopri come accedere ai criteri da Marketing Campaign Analytics.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
 autotag-review: '2026-05-01T09:17:02.907Z'
-TQID: 'https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4'
+TQID: 'https://experienceleague.adobe.com/uTMFYn3vc4-6JJefPhgFXGwaajrWQbgr9lW0y2s5B8U'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -30,16 +32,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 2%
 ---
 # Criteri
 
-Una volta eseguito il flusso di lavoro per creare un modello e inviare la configurazione del modello, [l&#39;applicazione dei criteri](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) verifica se sono presenti violazioni. Se si verifica una violazione dei criteri, viene visualizzato un messaggio a comparsa che indica che uno o più criteri sono stati violati. Questa verifica ha lo scopo di garantire che le operazioni sui dati e le azioni di marketing all’interno di Experience Platform siano conformi ai criteri di utilizzo dei dati.
+{{mm-mca-rebranding}}
 
-Per impostazione predefinita, Mix Modeler verifica la presenza di violazioni dei criteri definiti da Adobe associati alle etichette e alle azioni di marketing seguenti:
+Una volta eseguito il flusso di lavoro per creare un modello e inviare la configurazione del modello, [l&#39;applicazione dei criteri](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) verifica se sono presenti violazioni. Se si verifica una violazione dei criteri, viene visualizzato un messaggio a comparsa che indica che uno o più criteri sono stati violati. Questa verifica ha lo scopo di garantire che le operazioni sui dati e le azioni di marketing all’interno di Experience Platform siano conformi ai criteri di utilizzo dei dati.
+
+Per impostazione predefinita, Marketing Campaign Analytics verifica la presenza di violazioni dei criteri definiti da Adobe associati alle etichette e alle azioni di marketing seguenti:
 
 | Nome criterio | Etichetta associata | Azione di marketing associata |
 |---|---|---|
@@ -81,12 +85,12 @@ La violazione dei criteri di governance dei dati rilevata fornisce informazioni 
 La selezione di ![Privacy](/help/assets/icons/Privacy.svg) **[!UICONTROL Policies]** nella barra a sinistra consente di accedere all&#39;interfaccia [!UICONTROL Policies] di Experience Platform, consentendo di gestire i criteri, le etichette e le azioni di marketing.
 
 <!--
-Currently,  Mix Modeler does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
+Currently,  Marketing Campaign Analytics does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
 -->
 
 >[!MORELIKETHIS]
 >
->[Panoramica sui criteri di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/policies/overview)
+>[Panoramica sui criteri di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

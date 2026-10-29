@@ -1,37 +1,45 @@
 ---
 title: Schemi
-description: Scopri come gestire gli schemi necessari per acquisire i dati in Mix Modeler.
+description: Scopri come gestire gli schemi necessari per acquisire i dati in Marketing Campaign Analytics.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+autotag-review: '2026-05-01T08:56:54.552Z'
+TQID: 'https://experienceleague.adobe.com/GS91VDl1bmpHRPKVZTg6j-94nikFXXFHWLhoMoDWaw4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T08:56:54.552Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '618'
 ht-degree: 6%
-
 ---
-
 # Schemi
 
-Per gestire gli schemi, supportare i dati che desideri acquisire in Experience Platform e utilizzare in Mix Modeler:
+{{mm-mca-rebranding}}
 
-1. Passa all’interfaccia di Mix Modeler.
+Per gestire gli schemi, supportare i dati che desideri acquisire in Experience Platform e utilizzare in Marketing Campaign Analytics:
+
+1. Passa all’interfaccia di Marketing Campaign Analytics.
 
 1. Seleziona ![Schemi](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, sotto **[!UICONTROL SETUP]**.
 
-Per ulteriori informazioni, consulta la [Panoramica dell&#39;interfaccia utente degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it).
+Per ulteriori informazioni, consulta la [Panoramica dell&#39;interfaccia utente degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en).
 
 ## Dati aggregati o di riepilogo
 
-Si consiglia vivamente di utilizzare la classe Metriche di riepilogo XDM come base dello schema sottostante qualsiasi dato aggregato o di riepilogo che si desidera acquisire in Experience Platform e utilizzare in Mix Modeler.
+Si consiglia vivamente di utilizzare la classe Metriche di riepilogo XDM come base dello schema sottostante qualsiasi dato aggregato o di riepilogo che si desidera acquisire in Experience Platform e utilizzare in Marketing Campaign Analytics.
 
 Utilizza la classe Metriche di riepilogo XDM per:
 
@@ -97,7 +105,7 @@ Un set di dati di riepilogo, fattore interno o fattore esterno può essere basat
 
 ## Tipi di dati supportati
 
-Attualmente, Mix Modeler supporta un sottoinsieme di tipi di dati di Experience Platform. Sono supportati i seguenti tipi di dati di base (campi), menzionati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it#data-type):
+Attualmente, Marketing Campaign Analytics supporta un sottoinsieme di tipi di dati di Experience Platform. Sono supportati i seguenti tipi di dati di base (campi), menzionati in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type):
 
 - Stringa
 - Intero

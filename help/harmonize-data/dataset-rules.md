@@ -1,34 +1,51 @@
 ---
 title: Regole del set di dati
-description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
+description: Scopri come definire le regole del set di dati da utilizzare come parte dell’armonizzazione dei dati in Marketing Campaign Analytics.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+autotag-review: '2026-05-01T09:12:48.985Z'
+TQID: 'https://experienceleague.adobe.com/y9TAqZY49fiIesDpEQ-NO58bR2SU3hYvqk5lAlgrslA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
+    internal-label: Dataset rules
   - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+    internal-label: Dataset mapping
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 2161
+source-wordcount: '2169'
 ht-degree: 3%
-
 ---
-
 # Regole del set di dati
 
-Le regole del set di dati ti aiutano a mappare i campi armonizzati con i campi dei dati acquisiti in Mix Modeler.
+{{mm-mca-rebranding}}
+
+Le regole del set di dati ti aiutano a mappare i campi armonizzati con i campi dei dati acquisiti in Marketing Campaign Analytics.
 
 * Per i dati aggregati acquisiti in Adobe Experience Platform, mappi uno o più campi del set di dati disponibili ai campi armonizzati appropriati.
 * Per i dati evento, puoi mappare singolarmente uno o più campi armonizzati ai campi del set di dati, direttamente o utilizzando le condizioni.
@@ -37,7 +54,7 @@ Le regole del set di dati ti aiutano a mappare i campi armonizzati con i campi d
 
 ## Gestire le regole dei set di dati
 
-Per visualizzare una tabella delle regole dei set di dati disponibili, nell’interfaccia di Mix Modeler:
+Per visualizzare una tabella delle regole dei set di dati disponibili, nell’interfaccia di Marketing Campaign Analytics:
 
 1. Seleziona ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
@@ -69,7 +86,7 @@ Le colonne della tabella specificano i dettagli sulle regole del set di dati:
 
 ### Creare una regola del set di dati
 
-Per creare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler, selezionare **[!UICONTROL Create a dataset rule]** nella procedura guidata **[!UICONTROL Dataset rules configuration]**.
+Per creare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Marketing Campaign Analytics, selezionare **[!UICONTROL Create a dataset rule]** nella procedura guidata **[!UICONTROL Dataset rules configuration]**.
 
 Nella schermata **[!UICONTROL Create]**,
 
@@ -83,7 +100,7 @@ Nella schermata **[!UICONTROL Create]**,
 
    La segnalazione dei dati da parte degli editori è molto importante per gli analisti di marketing, in quanto lavorare con gli editori spesso implica una spesa significativa e le modifiche nei dati di segnalazione possono comportare informazioni e piani di investimento molto diversi. Inoltre, gli analisti di marketing hanno bisogno di dati accurati per ricavare le informazioni giuste e presentare proposte convincenti per conquistare la fiducia delle parti interessate. Tuttavia, questi editori, come Google e Facebook, spesso aggiornano o eliminano i dati di reporting mentre riconciliano i loro dati. L’intervallo di tempo per la maggior parte delle modifiche è entro 7 giorni dalle prestazioni multimediali riportate. Ulteriori modifiche nei dati sono possibili entro 30 giorni. In generale, dopo 30 giorni, i libri sono considerati chiusi e i dati completi.
 
-   Mix Modeler supporta la rigenerazione dei dati. Per garantire che i dati utilizzati per il reporting, la modellazione e la pianificazione siano accurati. E che i dati siano in grado di supportare le aspettative e le esigenze del brand e degli analisti di marketing.
+   Marketing Campaign Analytics supporta la rigenerazione dei dati. Per garantire che i dati utilizzati per il reporting, la modellazione e la pianificazione siano accurati. E che i dati siano in grado di supportare le aspettative e le esigenze del brand e degli analisti di marketing.
 
    Puoi inviare righe aggiornate di dati di riepilogo come righe incrementali in un set di dati Experience Platform e il servizio di armonizzazione aggiorna il set di dati armonizzato con tali dati aggiornati. Allo stesso modo, puoi anche rimuovere le righe di dati di riepilogo che devono essere riflesse nel servizio di armonizzazione.
 
@@ -93,17 +110,17 @@ Nella schermata **[!UICONTROL Create]**,
 
      1. Selezionare **[!UICONTROL Count]** o **[!UICONTROL Sum]** da **[!UICONTROL Mapping type]**.
 
-     1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**&#x200B;a cui vuoi mappare il campo armonizzato per impostazione predefinita.
+     1. Seleziona un **[!UICONTROL *campo set di dati di AEP *]**a cui vuoi mappare il campo armonizzato per impostazione predefinita.
 
    * Quando il campo selezionato è di tipo dimensione:
 
      1. Selezionare **[!UICONTROL Map Into]** o **[!UICONTROL Case]** da **[!UICONTROL Mapping type]**.
 
-     1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+     1. Dopo aver selezionato **[!UICONTROL Map Into]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-     1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**&#x200B;o **[!UICONTROL Value]**&#x200B;e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
+     1. Quando selezioni **[!UICONTROL Case]**, seleziona **[!UICONTROL Field]** e **[!UICONTROL *Campo set di dati AEP *]**o **[!UICONTROL Value]**e un valore predefinito per mappare il campo armonizzato per impostazione predefinita al campo set di dati o al valore immesso.
 
-        1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**&#x200B;specifico, che si tratti di **[!UICONTROL Exists]**&#x200B;o **[!UICONTROL Not Exists]**&#x200B;oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;o **[!UICONTROL Ends With]**&#x200B;un valore immesso in&#x200B;**[!UICONTROL * Immettere il valore di input *]**.
+        1. Per impostare i valori in modo esplicito, definite uno o più casi, costituiti da una o più condizioni. Ciascuna condizione può verificare la presenza di un campo **[!UICONTROL *set di dati AEP *]**specifico, che si tratti di **[!UICONTROL Exists]**o **[!UICONTROL Not Exists]**oppure di **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**o **[!UICONTROL Ends With]**un valore immesso in**[!UICONTROL * Immettere il valore di input *]**.
 
         1. Per aggiungere un altro caso, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, per aggiungere un&#39;altra condizione, selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -135,7 +152,7 @@ Al termine, selezionare **[!UICONTROL Save as draft]** per salvare una bozza del
 
 #### Set di dati di riepilogo
 
-Quando mappi un campo armonizzato standard da un set di dati di riepilogo, Mix Modeler tenta di dedurre il campo set di dati Experience Platform corrispondente. In caso di esito positivo:
+Quando mappi un campo armonizzato standard da un set di dati di riepilogo, Marketing Campaign Analytics tenta di dedurre il campo set di dati Experience Platform corrispondente. In caso di esito positivo:
 
 * Se il campo è di tipo dimensione, **[!UICONTROL Map into]** viene selezionato come **[!UICONTROL Mapping type]**.
 * Se il campo è di tipo metrica, **[!UICONTROL Sum]** viene selezionato come **[!UICONTROL Mapping type]**.
@@ -212,7 +229,7 @@ Per il campo armonizzato **[!UICONTROL Factor value]**, utilizza uno degli opera
 
 ### Modificare una regola del set di dati
 
-Per modificare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler:
+Per modificare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Marketing Campaign Analytics:
 
 1. Seleziona ![Altro](/help/assets/icons/More.svg) nella colonna **[!UICONTROL Dataset]** per la regola del set di dati da modificare.
 1. Dal menu di scelta rapida, seleziona ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** per iniziare a modificare la regola del set di dati. Per ulteriori dettagli, consulta [Creare una regola del set di dati](#create-a-dataset-rule).
@@ -220,7 +237,7 @@ Per modificare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/h
 
 ### Eliminare una regola di set di dati
 
-Per eliminare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Mix Modeler:
+Per eliminare una regola del set di dati, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** in Marketing Campaign Analytics:
 
 1. Seleziona ![Altro](/help/assets/icons/More.svg) nella colonna **[!UICONTROL Dataset]** per la regola del set di dati da eliminare.
 1. Dal menu di scelta rapida, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare la regola del set di dati. Viene richiesta una conferma. Selezionare **[!UICONTROL Delete]** per eliminare definitivamente la regola del set di dati selezionato.

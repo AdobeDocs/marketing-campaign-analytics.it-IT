@@ -1,18 +1,18 @@
 ---
 title: Pianificare gli approfondimenti
-description: Scopri come visualizzare informazioni approfondite sul piano e modificarlo in Mix Modeler.
+description: Scopri come visualizzare informazioni approfondite sul piano e modificarlo in Marketing Campaign Analytics.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
 autotag-review: '2026-04-28T06:09:37.014Z'
-TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
+TQID: 'https://experienceleague.adobe.com/K1G-WhaMSmzx0tJWgy6NrdDj5jQQRDJQjdRle7-ayJ4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-    internal-label: Models
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -24,13 +24,14 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1204'
 ht-degree: 0%
 ---
 # Pianificare gli approfondimenti
 
+{{mm-mca-rebranding}}
 
 In [!UICONTROL Plan insights] vengono create le informazioni del piano, con [!UICONTROL Model], [!UICONTROL Data range] e [!UICONTROL Plan target] su cui è basato il piano.
 
@@ -60,7 +61,7 @@ Quando crei gli approfondimenti, visualizzi una panoramica del piano, costituita
 
 Per chiudere l&#39;interfaccia, selezionare **[!UICONTROL Close]**.
 
-Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL &#x200B; %]** in **[!UICONTROL View ROI]**.
+Per modificare la modalità di visualizzazione del ROI del piano, selezionare **[!UICONTROL X]** o **[!UICONTROL  %]** in **[!UICONTROL View ROI]**.
 
 ## Spesa canale a pagamento e ROI previsti
 
@@ -127,14 +128,14 @@ Per modificare il piano, selezionare ![Modifica](/help/assets/icons/Edit.svg) **
    - Supporta l’analisi delle tendenze.
    - Identificare strategie efficaci ed evitare errori durante la configurazione dei piani.
 
-   Se si seleziona un periodo di riferimento storico, si allinea alle preferenze del modello di spesa precedente e la funzionalità di pianificazione di Mix Modeler può generare piani che rientrano nelle aspettative. Questi piani dovrebbero in ultima analisi aumentare la fiducia delle parti interessate, garantire che i piani di marketing siano strategici ed efficienti e che siano basati su dati sulle prestazioni e sulle esigenze aziendali comprovate.
+   Se si seleziona un periodo di riferimento storico, si allinea alle preferenze del modello di spesa precedente e la funzionalità di pianificazione di Marketing Campaign Analytics può generare piani che rientrano nelle aspettative. Questi piani dovrebbero in ultima analisi aumentare la fiducia delle parti interessate, garantire che i piani di marketing siano strategici ed efficienti e che siano basati su dati sulle prestazioni e sulle esigenze aziendali comprovate.
 
    ![Selezione spese](/help/assets/plan-spend-selection.png)
 
    1. Seleziona **[!UICONTROL Spend pattern]**.
 
       - L&#39;opzione predefinita è **[!UICONTROL Automatic]**.
-      - Selezionare **[!UICONTROL Historical reference]** e immettere **[!UICONTROL Start date]** per fare riferimento ai dati relativi alle spese di marketing precedenti già disponibili per Mix Modeler. **[!UICONTROL End date]** viene determinato automaticamente in base all&#39;intervallo di dati selezionato. La data di inizio proposta è il primo dato disponibile sulla spesa di marketing passata. Per indicare che hai selezionato un periodo di riferimento storico non esistente, viene visualizzato un ![AlertRed](/help/assets/icons/AlertRed.svg).
+      - Selezionare **[!UICONTROL Historical reference]** e immettere **[!UICONTROL Start date]** per fare riferimento ai dati relativi alle spese di marketing precedenti già disponibili per Marketing Campaign Analytics. **[!UICONTROL End date]** viene determinato automaticamente in base all&#39;intervallo di dati selezionato. La data di inizio proposta è il primo dato disponibile sulla spesa di marketing passata. Per indicare che hai selezionato un periodo di riferimento storico non esistente, viene visualizzato un ![AlertRed](/help/assets/icons/AlertRed.svg).
 
 
    1. Per modificare i budget per ciascun canale, modificare i valori per **[!UICONTROL Min]** e **[!UICONTROL Max]** o utilizzare i cursori.
@@ -193,7 +194,7 @@ Per modificare il piano, selezionare ![Modifica](/help/assets/icons/Edit.svg) **
 
    - Vengono riepilogati il nome del piano, il modello, l&#39;intervallo di date e il budget totale.
 
-   - Per impostazione predefinita, Mix Modeler calcola automaticamente i ricavi medi per conversione utilizzando i dati stagionali storici più recenti. In **[!UICONTROL Average Revenue per conversion]** puoi definire ricavi medi specifici per conversione.
+   - Per impostazione predefinita, Marketing Campaign Analytics calcola automaticamente i ricavi medi per conversione utilizzando i dati stagionali storici più recenti. In **[!UICONTROL Average Revenue per conversion]** puoi definire ricavi medi specifici per conversione.
 
    1. Per ogni intervallo di date nel budget:
       1. Selezionare un intervallo di date dal menu a discesa **[!UICONTROL Date range]**.
@@ -206,7 +207,7 @@ Per modificare il piano, selezionare ![Modifica](/help/assets/icons/Edit.svg) **
    >Se il modello non include dati storici sui ricavi, è necessario definire un ricavo medio per conversione per ogni intervallo di date specificato per il budget.
    >
 
-   - Per impostazione predefinita, Mix Modeler calcola automaticamente i costi del canale utilizzando i dati stagionali più recenti. In **[!UICONTROL Channel costs]** è possibile definire i costi del canale personalizzati.
+   - Per impostazione predefinita, Marketing Campaign Analytics calcola automaticamente i costi del canale utilizzando i dati stagionali più recenti. In **[!UICONTROL Channel costs]** è possibile definire i costi del canale personalizzati.
 
    1. Per ogni canale nel modello, definisci il costo del canale personalizzato.
       1. Selezionare un canale dal menu a discesa **[!UICONTROL Channel]**.

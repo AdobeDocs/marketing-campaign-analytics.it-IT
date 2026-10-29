@@ -1,13 +1,13 @@
 ---
 title: Prestazioni da pianificare
-description: Scopri come utilizzare le Prestazioni per pianificare una panoramica in Mix Modeler.
+description: Scopri come utilizzare le Prestazioni per pianificare una panoramica in Marketing Campaign Analytics.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 autotag-review: '2026-05-01T09:20:18.412Z'
-TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
+TQID: 'https://experienceleague.adobe.com/wz2IEd-oBB8N-BSAdXMkcz9xS0xn7l4FlRJoBaQcCAw'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
@@ -29,18 +29,27 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '544'
 ht-degree: 0%
 ---
 # Prestazioni da pianificare
 
+{{mm-mca-rebranding}}
+
 >[!NOTE]
 >
->La scheda **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** è una funzionalità beta e la relativa funzionalità è soggetta a modifiche. Questa funzione è disponibile per un numero limitato di clienti.
+>La scheda **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} in Marketing Campaign Analytics ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** è una funzionalità beta e la relativa funzionalità è soggetta a modifiche. Questa funzione è disponibile per un numero limitato di clienti.
 
-La scheda **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fornisce un dashboard di tracciamento per monitorare le prestazioni di marketing rispetto al piano. Puoi monitorare le prestazioni effettive rispetto a quelle pianificate tramite schede di stato e visualizzazioni.
+La scheda **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} in Marketing Campaign Analytics ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fornisce un dashboard di tracciamento per monitorare le prestazioni di marketing rispetto al piano. Puoi monitorare le prestazioni effettive rispetto a quelle pianificate tramite schede di stato e visualizzazioni.
 
 La dashboard consente di identificare lacune, individuare rischi o opportunità e apportare modifiche tempestive ai piani e ai budget.
 

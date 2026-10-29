@@ -1,33 +1,45 @@
 ---
 title: Panoramica dei piani
-description: Scopri come visualizzare, selezionare e intervenire sui piani in Mix Modeler.
+description: Scopri come visualizzare, selezionare e intervenire sui piani in Marketing Campaign Analytics.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
 autotag-review: '2026-05-01T09:05:53.776Z'
+TQID: 'https://experienceleague.adobe.com/OZjW5A4DP1raHwQgA5RSrbyFAwEp5gKPrzezj59nnFA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '683'
 ht-degree: 0%
-
 ---
-
 # Panoramica dei piani
 
-I piani in Mix Modeler consentono di allocare budget per business unit e canale. La funzionalità di pianificazione è integrata con i risultati dei modelli formati in base ai dati armonizzati.
+{{mm-mca-rebranding}}
+
+I piani in Marketing Campaign Analytics consentono di allocare budget per business unit e canale. La funzionalità di pianificazione è integrata con i risultati dei modelli formati in base ai dati armonizzati.
 
 Un piano delinea gli investimenti discrezionali (ad esempio i budget) che un’azienda intende spendere per progetti di marketing in un determinato arco temporale. Questi investimenti servono i KPI comuni (ad esempio ordini, ricavi). I piani possono includere le spese da canali come pubblicità a pagamento, contenuti web sponsorizzati, eventi.
 
@@ -48,12 +60,12 @@ Se un modello utilizzato per il piano viene valutato in base a nuovi dati, è ne
 
 ## Creare piani
 
-Per creare un piano, utilizzare la procedura guidata di creazione del piano di Mix Modeler. Per ulteriori dettagli, consulta [Piani di compilazione](build.md).
+Per creare un piano, utilizzare la procedura guidata di creazione del piano di Marketing Campaign Analytics. Per ulteriori dettagli, consulta [Piani di compilazione](build.md).
 
 
 ## Gestisci piani
 
-Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia di Mix Modeler:
+Per visualizzare una tabella dei piani correnti, nell&#39;interfaccia di Marketing Campaign Analytics:
 
 1. Seleziona ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** dalla barra a sinistra.
 
@@ -100,15 +112,15 @@ Per duplicare un piano:
 - Seleziona ![Altro](/help/assets/icons/More.svg) per un piano. Dal menu di scelta rapida, selezionare **[!UICONTROL Duplicate]**.
 - In alternativa, selezionare un piano nella tabella ![SelectBox](/help/assets/icons/SelectBox.svg) e selezionare ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** dalla barra delle azioni blu.
 
-Viene creato un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)] (_n_)**. Viene automaticamente reindirizzato a [Creazione piano](build.md) per fornire dettagli aggiornati per il piano copiato.
+Viene creato un nuovo piano, con un nome composto dal nome del piano originale seguito da **[!UICONTROL (Copy)](_n_)**. Viene automaticamente reindirizzato a [Creazione piano](build.md) per fornire dettagli aggiornati per il piano copiato.
 
 - I dettagli (come Descrizione, Budget e altro) del piano originale vengono copiati.
 - I vincoli di budget del piano originale vengono copiati nel piano appena creato.
 - È possibile selezionare un altro modello come base per il piano copiato.
-   - Per i punti di contatto o i canali che esistono nel piano copiato ma non nel modello appena selezionato, eventuali vincoli per tali punti di contatto o canali vengono rimossi dal piano.
-   - Per i punti di contatto o i canali che non esistono nel piano copiato ma esistono nel modello appena selezionato, i vincoli sono impostati su:
-      - un valore minimo di `0`,
-      - un valore massimo in linea con il budget intervallo di voli del piano.
+  - Per i punti di contatto o i canali che esistono nel piano copiato ma non nel modello appena selezionato, eventuali vincoli per tali punti di contatto o canali vengono rimossi dal piano.
+  - Per i punti di contatto o i canali che non esistono nel piano copiato ma esistono nel modello appena selezionato, i vincoli sono impostati su:
+    - un valore minimo di `0`,
+    - un valore massimo in linea con il budget intervallo di voli del piano.
 
 
 
@@ -131,6 +143,6 @@ Per eliminare più piani:
 
 1. Selezionare più piani.
 1. Dalla barra delle azioni blu, selezionare ![Elimina](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** per eliminare i piani.
-1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete *x *piani]**&#x200B;per eliminare i piani. Selezionare **[!UICONTROL Cancel]**&#x200B;per annullare.
+1. Selezionare **[!UICONTROL Delete]** nella finestra di conferma **[!UICONTROL Delete *x *piani]**per eliminare i piani. Selezionare **[!UICONTROL Cancel]**per annullare.
 
 
