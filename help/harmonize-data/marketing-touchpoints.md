@@ -1,27 +1,32 @@
 ---
 title: Punti di contatto di marketing
-description: Scopri come creare punti di contatto di marketing da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
+description: Scopri come creare punti di contatto di marketing da utilizzare come parte dell’armonizzazione dei dati in Marketing Campaign Analytics.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-TQID: https://experienceleague.adobe.com/6HEgtbsEegA-XyeNQTCQd5JhMZyKZ9BzxPAiJGOr1N0
+autotag-review: '2026-05-01T09:13:36.558Z'
+TQID: 'https://experienceleague.adobe.com/C6T9Ga2PICq3GBgEtsnZsB8C9xiO7hZXsdHfv7TqkLE'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+    internal-label: Marketing touchpoints
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:13:36.558Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: '481'
 ht-degree: 12%
-
 ---
-
 # Punti di contatto di marketing {#marketing-touchpoints}
+
+{{mm-mca-rebranding}}
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_marketingtouchpoints_create"
@@ -35,7 +40,7 @@ Definisci i punti di contatto di marketing per facilitarti l’analisi dell’at
 
 ## Gestire i punti di contatto di marketing
 
-Per visualizzare una tabella dei punti di contatto di marketing disponibili nell’interfaccia di Mix Modeler:
+Per visualizzare una tabella dei punti di contatto di marketing disponibili nell’interfaccia di Marketing Campaign Analytics:
 
 1. Seleziona ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
@@ -55,7 +60,7 @@ Le colonne della tabella specificano i dettagli del punto di contatto di marketi
 
 ## Aggiungere un punto di contatto di marketing
 
-Per aggiungere un punto di contatto di marketing, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** in Mix Modeler:
+Per aggiungere un punto di contatto di marketing, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** in Marketing Campaign Analytics:
 
 1. Seleziona ![Aggiungi](/help/assets/icons/AddCircle.svg) Aggiungi punto di contatto marketing.
 

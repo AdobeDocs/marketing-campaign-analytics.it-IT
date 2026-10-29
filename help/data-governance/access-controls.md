@@ -1,39 +1,51 @@
 ---
 title: Controlli di accesso
-description: Scopri come configurare i controlli di accesso in Mix Modeler.
+description: Scopri come configurare i controlli di accesso in Marketing Campaign Analytics.
 feature: Administration
 exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
-TQID: https://experienceleague.adobe.com/EoiF5ui2Bqq0Oxuv-s5E5pQclj9gnjoKgZ1bOzRK-vY
+autotag-review: '2026-05-01T09:20:37.287Z'
+TQID: 'https://experienceleague.adobe.com/ThO2ylnzexAPA1qczBJ5EEfHErHphVQ3XjXug71w6A0'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: abe9e290-7d2f-4131-b71e-ef9900865044
+    internal-label: Access control
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: '2026-05-01T09:20:37.287Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 1%
-
+source-wordcount: '415'
+ht-degree: 3%
 ---
-
 # Controlli di accesso
 
-Il controllo degli accessi per Mix Modeler viene fornito tramite Experience Platform in [Adobe Admin Console](https://adminconsole.adobe.com/) e tramite [Autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#platform-permissions) in Experience Platform. Questa funzionalità sfrutta i profili di prodotto in Admin Console, che collegano gli utenti con autorizzazioni e sandbox.
+{{mm-mca-rebranding}}
+
+Il controllo degli accessi per Marketing Campaign Analytics viene fornito tramite Experience Platform in [Adobe Admin Console](https://adminconsole.adobe.com/) e tramite [Autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#platform-permissions) in Experience Platform. Questa funzionalità sfrutta i profili di prodotto in Admin Console, che collegano gli utenti con autorizzazioni e sandbox.
 
 Per ulteriori informazioni sul controllo degli accessi, vedere [Panoramica sul controllo degli accessi](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home).
 
 ## Controllo degli accessi basato sul ruolo
 
-Consulta [Amministrazione](../main-guide/administration.md) su come configurare le autorizzazioni di accesso basate sul ruolo per gli utenti e i gruppi di utenti di Mix Modeler in Experience Platform.
+Consulta [Amministrazione](../main-guide/administration.md) su come configurare le autorizzazioni di accesso basate sul ruolo per gli utenti e i gruppi di utenti di Marketing Campaign Analytics in Experience Platform.
 
 ## Controllo degli accessi basato su attributi
 

@@ -1,13 +1,13 @@
 ---
 title: Panoramica sulla Home
-description: Scopri come visualizzare una panoramica dei dati e dei piani armonizzati in Mix Modeler.
+description: Scopri come visualizzare una panoramica dei dati e dei piani armonizzati in Marketing Campaign Analytics.
 feature: Dashboard, Plans, Harmonized Data, Models
 exl-id: ef034268-ef0a-4c9b-9dd5-d98ff8150b95
 autotag-review: '2026-05-01T09:18:23.288Z'
-TQID: 'https://experienceleague.adobe.com/jmYXD3MDg584DgtIJT8MeCj2VgCJ-Dgm8H0TceP7aG0'
+TQID: 'https://experienceleague.adobe.com/aFQuELdAYwaq0LnAl90Nxe7ruLIQ92UAibeeys51lpw'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -31,17 +31,23 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '69'
 ht-degree: 0%
 ---
 # Panoramica sulla Home
 
+{{mm-mca-rebranding}}
 
-La schermata Home overview (Panoramica Home) in Mix Modeler mostra una panoramica dei dati armonizzati e dei piani attraverso varie visualizzazioni configurabili.
+La schermata Home overview (Panoramica Home) in Marketing Campaign Analytics mostra una panoramica dei dati armonizzati e dei piani attraverso varie visualizzazioni configurabili.
 
-Per accedere alla panoramica, seleziona ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** dalla barra a sinistra nell&#39;interfaccia di Mix Modeler.
+Per accedere alla panoramica, seleziona ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** dalla barra a sinistra nell&#39;interfaccia di Marketing Campaign Analytics.
 
 Da qui puoi ottenere ulteriori dettagli su:
 

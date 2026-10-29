@@ -1,28 +1,34 @@
 ---
 title: Conversioni
-description: Scopri come creare conversioni da utilizzare come parte dell’armonizzazione dei dati in Mix Modeler.
+description: Scopri come creare conversioni da utilizzare come parte dell’armonizzazione dei dati in Marketing Campaign Analytics.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-TQID: https://experienceleague.adobe.com/rjFYd9XMTc5z4frFlq41PJqh9Zim-qoHSToyZenTPXE
+autotag-review: '2026-05-01T09:15:50.061Z'
+TQID: 'https://experienceleague.adobe.com/5m8Z9cc9d42019sNXkstXDn6cOo-2yzzQWCw0VG1YrY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:15:50.061Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 424
-ht-degree: 10%
-
+source-wordcount: '454'
+ht-degree: 9%
 ---
-
 # Conversioni {#conversions}
 
+{{mm-mca-rebranding}}
+
+{{mm-mca-rebranding}}
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_conversions_create"
@@ -36,7 +42,7 @@ Puoi definire le conversioni marketing per l’analisi di attribuzione.
 
 ## Gestire le conversioni
 
-Per visualizzare una tabella delle conversioni disponibili, nell’interfaccia di Mix Modeler:
+Per visualizzare una tabella delle conversioni disponibili, nell’interfaccia di Marketing Campaign Analytics:
 
 1. Seleziona ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** dalla barra a sinistra.
 
@@ -48,15 +54,15 @@ Le colonne della tabella specificano i dettagli sulla conversione:
 | --- | ---|
 | Nome | Nome della conversione. |
 | Ricavi | La metrica di dati armonizzata da utilizzare per calcolare i ricavi da una conversione. |
-| Metrica di conversione | La metrica di dati armonizzata da utilizzare come metrica di conversione per l’analisi. |
-| Categoria | La categoria di conversione della conversione. |
+| Metrica di conversione | La metrica di dati armonizzata da utilizzare come metrica di conversione per l’analisi. Indica il risultato aziendale numerico principale, ad esempio: ordini, ricavi, numero di abbonamenti e altro ancora. |
+| Categoria | La regola di conversione da applicare, in cui una dimensione di conversione viene utilizzata per classificare il tipo di conversione. |
 | Creato | Data e ora della creazione della conversione. |
 | Ultima modifica | Data e ora dell’ultima modifica della conversione. |
 
 
 ## Aggiungere una conversione
 
-Per aggiungere una conversione, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** in Mix Modeler:
+Per aggiungere una conversione, nell&#39;interfaccia ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** in Marketing Campaign Analytics:
 
 1. Selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 

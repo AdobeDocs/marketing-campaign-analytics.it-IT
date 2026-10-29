@@ -1,33 +1,44 @@
 ---
 title: Panoramica dell’acquisizione dei dati
-description: Scopri come acquisire dati in Mix Modeler.
+description: Scopri come acquisire dati in Marketing Campaign Analytics.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+autotag-review: '2026-05-01T09:11:34.506Z'
+TQID: 'https://experienceleague.adobe.com/bCjm1mvGkSSpD6oke4baWwZftqjyjv4u-1sBDtOYsJY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ad7101f7-ae92-401b-a25a-d3060d42989d
+    internal-label: Aggregate datasets
   - id: d1167c89-f64a-42ca-ac95-1d91b7790df2
+    internal-label: Summary datasets
   - id: ee1bf083-e090-4def-936b-c111d29f42d0
+    internal-label: Ingest data
   - id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+    internal-label: Event datasets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:11:34.506Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 9d6bd798e97d36d49b7753dc9574b102efb3d6bf
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 14%
-
+source-wordcount: '592'
+ht-degree: 17%
 ---
-
 # Panoramica dell’acquisizione dei dati
 
-Mix Modeler utilizza dati a livello di evento, aggregati o riepilogativi sulle attività di marketing provenienti da vari giardini murati. E con dati aggregati o riepilogativi provenienti da qualsiasi altra origine, come pubblicità offline, fattori interni o esterni.
+{{mm-mca-rebranding}}
+
+Marketing Campaign Analytics utilizza dati a livello di evento, aggregati o riepilogativi sulle attività di marketing provenienti da vari giardini murati. E con dati aggregati o riepilogativi provenienti da qualsiasi altra origine, come pubblicità offline, fattori interni o esterni.
 
 I clienti possono utilizzare qualsiasi tipo di dati acquisito in Experience Platform come set di dati e basato su schemi che utilizzano ExperienceEvent XDM o Metriche di riepilogo XDM come classe base.
 
@@ -38,11 +49,11 @@ Ad esempio:
 * Aggregare o riepilogare dati provenienti da giardini murati (come Facebook, YouTube), da origini del traffico o da dati pubblicitari offline.
 * Dati aggregati o di riepilogo non di marketing contenenti fattori interni o esterni utili per la creazione di modelli.
 
-Puoi utilizzare qualsiasi tipo di meccanismo supportato da Experience Platform per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch. Per ulteriori informazioni sull&#39;acquisizione dei dati in Experience Platform per l&#39;utilizzo in Adobe Mix Modeler, consulta la [Panoramica sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home).
+Puoi utilizzare qualsiasi tipo di meccanismo supportato da Experience Platform per acquisire a livello di evento l’esperienza, aggregare i dati relativi alle attività di marketing e i dati provenienti da altre origini. Ad esempio gli SDK di Experience Platform, le API, i connettori di origine e l’acquisizione in streaming e batch. Per ulteriori informazioni sull&#39;acquisizione dei dati in Experience Platform per l&#39;utilizzo in Adobe Marketing Campaign Analytics, consulta la [Panoramica sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home).
 
 ## Linee guida
 
-Per acquisire i dati in Experience Platform per l’utilizzo con Mix Modeler, segui queste linee guida:
+Per acquisire i dati in Experience Platform per l’utilizzo con Marketing Campaign Analytics, segui queste linee guida:
 
 * Non dovrebbero esserci sovrapposizioni nei dati incrementali aggiunti ai set di dati.
 * Tutti i dati provenienti da una singola origine devono avere la stessa granularità.
@@ -52,7 +63,7 @@ Per acquisire i dati in Experience Platform per l’utilizzo con Mix Modeler, se
 
 ## Esempi
 
-Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre ai dati dell’evento di esperienza più standard.
+Di seguito trovi alcuni esempi di dati utilizzati in genere in Marketing Campaign Analytics oltre ai dati dell’evento di esperienza più standard.
 
 +++ Aggregazione dei dati relativi allo sforzo di marketing
 
@@ -94,12 +105,12 @@ Di seguito trovi alcuni esempi di dati utilizzati in genere in Mix Modeler oltre
 
 +++
 
-Per lavorare con i dati in Mix Modeler, è necessario che siano raccolti in set di dati e modellati secondo gli schemi in Experience Platform. L’interfaccia di Mix Modeler consente di accedere facilmente sia agli schemi di Experience Platform che all’interfaccia utente dei set di dati.
+Per lavorare con i dati in Marketing Campaign Analytics, è necessario che siano raccolti in set di dati e modellati secondo gli schemi in Experience Platform. L’interfaccia di Marketing Campaign Analytics consente di accedere facilmente sia agli schemi di Experience Platform che all’interfaccia utente dei set di dati.
 
 
 ## Convalidare
 
-Per verificare se i dati sono disponibili correttamente in Mix Modeler, puoi effettuare le seguenti operazioni:
+Per verificare se i dati sono disponibili correttamente in Marketing Campaign Analytics, puoi effettuare le seguenti operazioni:
 
 * Utilizza le visualizzazioni in [Panoramica](/help/overview.md).
 * Scarica e controlla i dati da [Dati armonizzati](/help/harmonize-data/overview.md) nei set di dati armonizzati.
