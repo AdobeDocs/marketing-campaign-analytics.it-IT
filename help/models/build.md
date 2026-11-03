@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
+source-git-commit: 1e187d334357fc2696b7a15796d669f9632b63cb
 workflow-type: tm+mt
 source-wordcount: '2134'
 ht-degree: 8%
@@ -280,11 +280,12 @@ Per pianificare l’apprendimento e il punteggio del modello:
 
 ### Customer Journey Analytics {#cja}
 
-
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Abilitare Customer Journey Analytics"
 >abstract="Abilita questa impostazione per rendere i dati di punteggio disponibili per Customer Journey Analytics a scopo di reporting e analisi. Una volta attivato, devi eliminare il modello per disabilitare questa impostazione."
+
+{{release-limited-testing-section}}
 
 Se hai diritto a Customer Journey Analytics e hai creato una o più [regole set di dati](/help/harmonize-data/dataset-rules.md) per Marketing Campaign Analytics in una particolare sandbox:
 
@@ -303,8 +304,8 @@ Per rendere i dati del punteggio modello disponibili a Customer Journey Analytic
 Per creare rapporti e analizzare rapidamente i dati di Marketing Campaign Analytics, in un [progetto Workspace](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home) di Customer Journey Analytics:
 
 1. Selezionare **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**.
-1. Seleziona la **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;dedicata come visualizzazione dati da utilizzare per un progetto.
-1. Selezionare il **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modello](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
+1. Seleziona la **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**dedicata come visualizzazione dati da utilizzare per un progetto.
+1. Selezionare il **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modello](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
    * Seleziona **[!UICONTROL Preview]** per visualizzare un&#39;anteprima.
 
      ![Anteprima modello Marketing Campaign Analytics](/help/assets/model-cja-enable-template.png)
