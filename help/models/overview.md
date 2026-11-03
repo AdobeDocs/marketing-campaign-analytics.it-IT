@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: c75532d37a87f39cb61eabd58333b39895cf3a69
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1329'
 ht-degree: 0%
 ---
 # Panoramica dei modelli
@@ -49,7 +49,7 @@ La funzionalità dei modelli di Marketing Campaign Analytics consente di configu
 
 I modelli si basano sui dati armonizzati creati come parte del flusso di lavoro dell’applicazione.
 
-Un modello in Marketing Campaign Analytics è un modello di apprendimento automatico utilizzato per misurare e prevedere un risultato specifico basato sugli investimenti di un addetto marketing. I punti di contatto di marketing e i dati di riepilogo possono essere utilizzati come input. Marketing Campaign Analytics consente di creare varianti di modelli basati su diversi set di variabili, dimensioni e risultati, come ricavi, unità vendute, lead.
+Un modello in Marketing Campaign Analytics è un modello di apprendimento automatico utilizzato per misurare e prevedere un risultato specifico basato sugli investimenti di marketing. I punti di contatto di marketing e i dati di riepilogo possono essere utilizzati come input. Marketing Campaign Analytics consente di creare varianti di modelli basati su diversi set di variabili, dimensioni e risultati, come ricavi, unità vendute, lead.
 
 Un modello richiede:
 
@@ -62,10 +62,10 @@ Un modello può facoltativamente includere:
 
 * Fattori esterni.
 * Fattori interni.
-* Conoscenza preventiva dei contributi di marketing da altre fonti, come la precedente esperienza delle parti interessate, test incrementali, altri modelli.
+* Conoscenza preventiva dei contributi di marketing da altre fonti, come la precedente esperienza delle parti interessate, test incrementali e altri modelli.
 * La condivisione di spesa, che utilizza come proxy la condivisione di spesa relativa quando i dati di marketing sono sparsi.
 
-La prima volta che viene creato un modello, la creazione avvia immediatamente il processo di formazione e punteggio. Dopo il completamento dell’esecuzione iniziale dell’addestramento e del punteggio, gli approfondimenti del modello sono disponibili per la revisione. Un modello può essere successivamente riqualificato. Inoltre, i dati possono essere aggiunti al modello che richiede il ripristino manuale del modello. La riqualificazione e il ricalcolo sono un processo iterativo, in quanto emergono nuovi risultati e informazioni e sono necessari adeguamenti per ottenere un adattamento del modello più appropriato per gli obiettivi aziendali.
+La prima volta che viene creato un modello, la creazione avvia immediatamente il processo di formazione e punteggio. Dopo il completamento dell’esecuzione iniziale dell’addestramento e del punteggio, gli approfondimenti del modello sono disponibili per la revisione. Un modello viene successivamente riqualificato. Inoltre, quando i dati vengono aggiunti al modello, è necessario un ripristino manuale del modello. La riqualificazione e il ricalcolo sono un processo iterativo, in quanto emergono nuovi risultati e informazioni e sono necessari adeguamenti per ottenere un adattamento del modello più appropriato per gli obiettivi aziendali.
 
 ## Modellazione Full funnel
 
@@ -75,13 +75,13 @@ La modellazione completa di funnel consente di modellare le fasi reali del funne
 
 Puoi utilizzare la modellazione completa di funnel per modellare su un indicatore KPI funnel superiore insieme a un indicatore KPI funnel inferiore.
 
-* Esempi di KPI superiori di funnel sono le iscrizioni a newsletter e altre metriche di brand awareness.
+* Esempi di KPI superiori di funnel sono le iscrizioni alle newsletter e altre metriche di brand awareness.
 * Esempi di metriche funnel inferiori sono le metriche di conversione tipiche, come ricavi e ordini.
 
 Le tattiche del funnel superiore spesso ottengono meno credito in un modello MMM incentrato sulla conversione. La modellazione completa di funnel consente di comprendere:
 
 * Quali tattiche mediatiche e di marketing hanno contribuito all’obiettivo superiore di funnel.
-* Quali tattiche mediatiche e di marketing hanno avuto un impatto indiretto sull’obiettivo di conversione. I pesi massimi del modello funnel sono un input per il modello funnel inferiore per dare maggiore peso ai media e alle tattiche di marketing, se del caso.
+* Quali tattiche mediatiche e di marketing hanno avuto un impatto indiretto sull’obiettivo di conversione. I pesi massimi del modello funnel sono un input per il modello funnel inferiore per dare più peso ai media e alle tattiche di marketing, se del caso.
 
 ## Creare modelli
 
@@ -108,7 +108,7 @@ Per visualizzare una tabella dei modelli correnti, nell’interfaccia di Marketi
 
    Per ordinare la tabella in qualsiasi colonna in ordine crescente ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) o decrescente ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg), selezionare il titolo della colonna.
 
-   Per ordinare o ridimensionare la colonna **[!UICONTROL Name]**, selezionare **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). Dal menu di scelta rapida selezionare **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** o **[!UICONTROL Resize column]**. In alternativa, è possibile passare il puntatore del mouse sul separatore di colonna per ridimensionare la colonna **[!UICONTROL Name]**.
+   Per ordinare o ridimensionare la colonna **[!UICONTROL Name]**, selezionare **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). Dal menu di scelta rapida selezionare **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** o **[!UICONTROL Resize column]**. Per ridimensionare la colonna **[!UICONTROL Name]**, posizionare il puntatore del mouse sul separatore di colonna.
 
    Lo stato segnalato del modello dipende dalla posizione in cui si trova un modello all&#39;interno del suo ciclo di vita. Ad esempio, se un modello viene creato, o riaddestrato con successo o meno, o ha ottenuto o ottenuto nuovamente un punteggio.
 
@@ -195,6 +195,12 @@ Puoi modificare il nome, la descrizione e la pianificazione dell’apprendimento
         * **[!UICONTROL Monthly]**: selezionare un giorno del mese dal menu a discesa Esegui su ogni e immettere un&#39;ora valida (ad esempio `10:00 am`) oppure utilizzare ![Orologio](/help/assets/icons/Clock.svg) per definire l&#39;ora.
 
      1. Selezionare **[!UICONTROL Training frequency]** dal menu a discesa: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
+
+   * Se è abilitato il modello Full funnel, è visibile un attributo Enable full funnel disabilitato. Non puoi modificare questa impostazione.
+
+   * Per [rendere i dati di punteggio disponibili per Customer Journey Analytics](build.md#customer-journey-analytics), selezionare **[!UICONTROL Enable scores for Customer Journey Analytics]**.
+
+     Una volta abilitati i punteggi per Customer Journey Analytics, non puoi disabilitare questa impostazione a meno che il modello non venga eliminato.
 
    * Per aggiornare i campi di reporting di [granular insights](/help/models/build.md#granular-insights-reporting-fields), nella sezione **[!UICONTROL Granular Insights Reporting Fields]**:
      1. Seleziona uno o più campi armonizzati da **[!UICONTROL _Seleziona campi armonizzati_]** sotto **[!UICONTROL Includes]**. I campi armonizzati selezionati vengono aggiunti al pannello.

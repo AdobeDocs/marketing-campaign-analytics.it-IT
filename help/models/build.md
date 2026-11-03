@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 803bbfb863f55ef5d043c1e1592acd8c6d4bab44
+source-git-commit: 1b5be926bcc785602e9f722eae790f630b9564d4
 workflow-type: tm+mt
-source-wordcount: '1903'
-ht-degree: 7%
+source-wordcount: '2134'
+ht-degree: 8%
 ---
 # Creare modelli
 
@@ -96,7 +96,7 @@ Il modello viene configurato nel passaggio **[!UICONTROL Configure]**. La config
    >
    >Non è possibile impostare il modello con punti di contatto con dati sovrapposti e deve esserci almeno un punto di contatto con la spesa.
 
-1. Per impostazione predefinita, viene generato un punteggio per tutti i dati nella vista armonizzata. Per valutare solo un sottoinsieme della popolazione, definire uno o più filtri utilizzando i contenitori nella sezione **[!UICONTROL Eligible data population]**.
+1. Per impostazione predefinita, viene generato un punteggio per tutti i dati nella vista armonizzata. Per assegnare un punteggio solo a un sottoinsieme della popolazione, definire uno o più filtri utilizzando i contenitori nella sezione **[!UICONTROL Eligible data population]**.
 
    ![Modello - Popolazione dati idonea](/help/assets/model-eligible-data-population-step.png)
 
@@ -140,16 +140,16 @@ Il modello viene configurato nel passaggio **[!UICONTROL Configure]**. La config
 
      ![Modello - Passaggio fattore funnel](../assets/model-factors-dataset-step-funnel.png)
 
-     * Per definire le relazioni causali, nella tabella **[!UICONTROL Causal relationship]** s selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) per ogni canale (**[!UICONTROL Source]**) se l&#39;indicatore KPI di conversione superiore (selezionato come **[!UICONTROL Upper funnel conversion]** nella sezione **[!UICONTROL Full funnel modeling]**) e l&#39;indicatore KPI di conversione inferiore (selezionato come **[!UICONTROL Conversion]** nella sezione **[!UICONTROL Conversion goal]**) è influenzato dal canale.
+     * Per definire le relazioni causali, nella tabella **[!UICONTROL Causal relationship]** s selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) per ogni canale (**[!UICONTROL Source]**) per indicare se il canale influenza i KPI di conversione superiore e inferiore.
 
        È possibile selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) nell&#39;intestazione di colonna per l&#39;indicatore KPI di conversione superiore e inferiore per definire rapidamente che tutti i canali influenzano l&#39;indicatore KPI.
 
-     * Una volta definiti i fattori, si definiscono le relazioni causali dei fattori. Per definire le relazioni causali del gactor, nella tabella **[!UICONTROL Factor causal relationships]** selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) per ogni fattore (**[!UICONTROL Factor]**) se l&#39;indicatore KPI di conversione superiore (selezionato come **[!UICONTROL Upper funnel conversion]** nella sezione **[!UICONTROL Full funnel modeling]**) e l&#39;indicatore KPI di conversione inferiore (selezionato come **[!UICONTROL Conversion]** nella sezione **[!UICONTROL Conversion goal]**) è influenzato dal fattore.
+     * Una volta definiti i fattori, si definiscono le relazioni causali dei fattori. Per definire le relazioni causali tra i fattori, nella tabella **[!UICONTROL Factor causal relationships]** selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) per ogni fattore (**[!UICONTROL Factor]**) per indicare se il fattore influenza i KPI di conversione superiore e inferiore.
 
-       È possibile selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) nell&#39;intestazione di colonna per l&#39;indicatore KPI di conversione superiore e inferiore per definire rapidamente che tutti i fattori influenzano l&#39;indicatore KPI.
+       È possibile selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) nell&#39;intestazione di colonna dell&#39;indicatore KPI di conversione superiore e dell&#39;indicatore KPI di conversione inferiore per definire rapidamente che tutti i fattori influenzano l&#39;indicatore KPI.
 
 
-1. Per definire l&#39;intervallo di lookback per il modello, immettere un valore compreso tra `1` e `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** nella sezione **[!UICONTROL Define lookback window]**.
+1. Per definire l&#39;intervallo di lookback del modello, immettere un valore compreso tra `1` e `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** nella sezione **[!UICONTROL Define lookback window]**.
 
    Se il modello è abilitato per la [modellazione completa di funnel](./overview.md#full-funnel-modeling):
 
@@ -158,7 +158,7 @@ Il modello viene configurato nel passaggio **[!UICONTROL Configure]**. La config
    * Per definire l&#39;intervallo di lookback per il funnel superiore, immettere un valore compreso tra `1` e `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the upper funnel conversion]** per **[!UICONTROL Upper funnel]** nella sezione **[!UICONTROL Define lookback window]**.
 
 
-1. Per definire la finestra di formazione per un modello, in **[!UICONTROL Define training window]**, seleziona la posizione in cui desideri iniziare a valutare le conversioni.
+1. Per definire la finestra di formazione per un modello, in **[!UICONTROL Define training window]**, seleziona il punto in cui iniziare a valutare le conversioni.
 
    ![Modello - Definisci la finestra di formazione](/help/assets/model-define-training-window.png)
 
@@ -195,7 +195,7 @@ Nella sezione **[!UICONTROL Spend share]**:
 
 * Si consiglia questa impostazione, in particolare nei seguenti scenari:
   * Un canale non dispone di un numero sufficiente di osservazioni (ad esempio, bassa frequenza di spesa, impression o clic).
-  * Stai modellando contenuti multimediali ad alto contenuto ma regolari e potenzialmente molto spesi (come la TV per alcuni marchi), in cui i dati possono essere scarsi.
+  * Stai modellando contenuti multimediali ad alto contenuto ma regolari e potenzialmente molto spesi (come la TV per alcuni marchi), dove i dati sono scarsi.
 
   >[!NOTE]
   >
@@ -234,7 +234,7 @@ Nella sezione **[!UICONTROL Prior knowledge]**:
 
 Nella sezione **[!UICONTROL Channel adstock]** è possibile definire singoli lookback di adstock (effetti di trascinamento o decadimento) e ritardi (tempi di risposta ritardati) per ogni canale (canale di marketing) definito nel modello.
 
-Questa configurazione di channel adstock consente un controllo dettagliato sul modo in cui i diversi canali di marketing influiscono sui risultati aziendali nel tempo. In alternativa, è possibile utilizzare i valori predefiniti di sistema e una configurazione unica.
+Questa configurazione di channel adstock consente un controllo dettagliato sul modo in cui i diversi canali di marketing influiscono sui risultati aziendali nel tempo. In alternativa, è possibile utilizzare i valori predefiniti di sistema e una configurazione standard.
 
 La configurazione di channel adstock consente di acquisire sfumature specifiche per il canale. Ad esempio, l’impatto a lungo termine delle campagne TV, l’impatto a breve termine della ricerca a pagamento o il ritardo tra la spesa degli influencer e le conversioni osservabili. Sperimenta i parametri di lookback e lag di adstock per generare informazioni più precise, personalizzate e affidabili. In ultima analisi, una configurazione di channel adstock può portare a allocazioni di budget più precise e a decisioni aziendali migliori.
 
@@ -246,7 +246,7 @@ Per configurare il canale adstock:
 
 * Per ogni canale (**[!UICONTROL Name]**), definire un valore **[!UICONTROL Lag (weeks)]**, **[!UICONTROL Min Lookback (weeks)]** e **[!UICONTROL Max Lookback (weeks)]**. Per ogni valore:
 
-  * Utilizza ![Aggiungi](/help/assets/icons/Add.svg) per aumentare un valore, ![Sottrai](/help/assets/icons/Subtract.svg) per diminuirlo o immetti un valore manualmente.
+  * Per aumentare un valore, utilizzare ![Aggiungi](/help/assets/icons/Add.svg); per diminuire un valore, utilizzare ![Sottrai](/help/assets/icons/Subtract.svg) oppure immettere un valore manualmente.
 
   Il totale delle settimane di lag più il massimo delle settimane di lookback per canale è limitato a un ottavo della finestra di apprendimento configurata. Questo limite consente di disporre dati sufficienti affinché il modello possa apprendere gli effetti dello stock annunci. Ad esempio, per un intervallo di formazione di due anni, il massimo di **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** per un canale è 13 settimane. Questo limite viene applicato quando si definiscono i valori.
 
@@ -278,6 +278,38 @@ Per pianificare l’apprendimento e il punteggio del modello:
 1. Selezionare **[!UICONTROL Training frequency]** dal menu a discesa: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** o **[!UICONTROL None]**.
 
 
+### Customer Journey Analytics {#cja}
+
+
+>[!CONTEXTUALHELP]
+>id="model_enable_cja"
+>title="Abilitare Customer Journey Analytics"
+>abstract="Abilita questa impostazione per rendere i dati di punteggio disponibili per Customer Journey Analytics a scopo di reporting e analisi. Una volta attivato, devi eliminare il modello per disabilitare questa impostazione."
+
+Se hai diritto a Customer Journey Analytics e hai creato una o più [regole set di dati](/help/harmonize-data/dataset-rules.md) per Marketing Campaign Analytics in una particolare sandbox:
+
+* Nella sandbox di Experience Platform vengono creati due set di dati Marketing Campaign Analytics dedicati.
+* È stata creata una [connessione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-connections/overview) Customer Journey Analytics, denominata **[!UICONTROL Marketing Campaign Analytics Enabled Connection (_nome-sandbox _)]**, contenente i set di dati Marketing Campaign Analytics dedicati.
+* In base alla connessione, viene creata una [visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views) di Customer Journey Analytics con titolo **[!UICONTROL Marketing Campaign Analytics Insights Data View (_nome-sandbox _)]**.
+
+Sia la connessione che la visualizzazione dati sono di proprietà del sistema. Impossibile aggiornare o eliminare la connessione o la visualizzazione dati.
+
+Per rendere i dati del punteggio modello disponibili a Customer Journey Analytics tramite i set di dati, la connessione e la visualizzazione dati sopra menzionati:
+
+* Seleziona **[!UICONTROL Enable scores for Customer Journey Analytics]**.
+
+  Dopo aver attivato questa impostazione, è possibile disattivarla solo eliminando il modello.
+
+Per creare rapporti e analizzare rapidamente i dati di Marketing Campaign Analytics, in un [progetto Workspace](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home) di Customer Journey Analytics:
+
+1. Selezionare **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**.
+1. Seleziona la **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;dedicata come visualizzazione dati da utilizzare per un progetto.
+1. Selezionare il **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modello](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
+   * Seleziona **[!UICONTROL Preview]** per visualizzare un&#39;anteprima.
+
+     ![Anteprima modello Marketing Campaign Analytics](/help/assets/model-cja-enable-template.png)
+   * Selezionare **[!UICONTROL Use template]** per creare un progetto basato sul modello.
+
 ### Campi di reporting per approfondimenti granulari
 
 La sezione **[!UICONTROL Granular insights reporting fields]** utilizza la funzionalità di reporting con incremento granulare. Questa funzionalità ti consente di selezionare campi armonizzati per suddividere i punteggi di conversione e di incrementalità dei punti di contatto.
@@ -286,7 +318,7 @@ La sezione **[!UICONTROL Granular insights reporting fields]** utilizza la funzi
 
 Puoi definire questi campi armonizzati in modo da poter analizzare in profondità il reporting del modello utilizzando colonne di reporting granulari invece di dover creare modelli separati.
 
-Ad esempio, puoi creare un modello incentrato sui ricavi, ma sei anche interessato alle prestazioni di campagne, tipi di media, aree geografiche e origini di traffico. Senza la funzionalità di reporting con incrementalità granulare, sarebbe necessario creare quattro modelli separati. Con la funzionalità di reporting granulare per incrementalità, puoi suddividere il modello di ricavi per campagne, tipi di media, aree geografiche e origini di traffico.
+Ad esempio, puoi creare un modello incentrato sui ricavi, ma sei anche interessato alle prestazioni della campagna, del tipo di media, dell’area geografica e dell’origine del traffico. Senza la funzionalità di reporting con incrementalità granulare, è necessario creare quattro modelli separati. Con la funzionalità di reporting granulare per incrementalità, puoi suddividere il modello di ricavi per campagne, tipi di media, aree geografiche e origini di traffico.
 
 1. Seleziona uno o più campi armonizzati da **[!UICONTROL _Seleziona campi armonizzati_]** sotto **[!UICONTROL Includes]**. I campi armonizzati selezionati vengono aggiunti al pannello.
 1. Selezionare **[!UICONTROL *Campo armonizzato *]**![CrossSize100](/help/assets/icons/CrossSize100.svg) per rimuovere un campo armonizzato dal contenitore con i campi armonizzati selezionati.
