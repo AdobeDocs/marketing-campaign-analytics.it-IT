@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 47233296898cdc0329ff7f43f897c65b4c470ee2
+source-git-commit: 5dfbd7542422d93969c2ffe44475d847693e8910
 workflow-type: tm+mt
-source-wordcount: '3099'
+source-wordcount: '3122'
 ht-degree: 10%
 ---
 # Approfondimenti modello
@@ -154,6 +154,8 @@ Se per il modello è abilitata la [modellazione completa di funnel](./overview.m
 >[!ENDTABS]
 
 Passa il puntatore del mouse su un flusso per visualizzare un popup con maggiori dettagli relativi al flusso funnel specifico.
+
+Il canale associato alla conversione funnel superiore selezionata (come definito in [Conversioni](/help/harmonize-data/conversions.md)) viene visualizzato al centro della visualizzazione (ad esempio: **[!UICONTROL Store]**).
 
 ### Suddivisione punto di contatto
 
