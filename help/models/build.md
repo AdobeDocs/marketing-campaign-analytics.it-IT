@@ -304,8 +304,8 @@ Per rendere i dati del punteggio modello disponibili a Customer Journey Analytic
 Per creare rapporti e analizzare rapidamente i dati di Marketing Campaign Analytics, in un [progetto Workspace](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home) di Customer Journey Analytics:
 
 1. Selezionare **[!UICONTROL Workspace]** > **[!UICONTROL Adobe templates]**.
-1. Seleziona la **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**&#x200B;dedicata come visualizzazione dati da utilizzare per un progetto.
-1. Selezionare il **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modello](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
+1. Seleziona la **[!UICONTROL Marketing Campaign Analytics Insights Data View (_sandbox-name _)]**dedicata come visualizzazione dati da utilizzare per un progetto.
+1. Selezionare il **[!UICONTROL Marketing Campaign Analytics Incremental Insights]** [modello](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#marketing-campaign-analytics-templates).
    * Seleziona **[!UICONTROL Preview]** per visualizzare un&#39;anteprima.
 
      ![Anteprima modello Marketing Campaign Analytics](/help/assets/model-cja-enable-template.png)
